@@ -4,7 +4,7 @@ Eco Tracker is a Flutter application designed to help users track their sustaina
 
 ## Demo Video
 
-Watch the [demo video](https://www.example.com/demo) to see Eco Tracker in action.
+Watch the [demo video](https://youtube.com/shorts/k_IdCkhqXp8?feature=share) to see Eco Tracker in action.
 
 ## Features
 
