@@ -6,6 +6,10 @@ Eco Tracker is a Flutter application designed to help users track their sustaina
 
 Watch the [demo video](https://youtube.com/shorts/k_IdCkhqXp8?feature=share) to see Eco Tracker in action.
 
+User Authentification and firebase demo videos
+[sign-up](https://www.loom.com/share/35d6f257062b49159e846b7fd2eaa64c?sid=53570e33-1a8b-4e2f-bbca-ce8ecead51e2)
+[login](https://www.loom.com/share/7fbd3074382b45b1a45cb5448337034d?sid=c8a9254b-0260-4793-aded-a39f9e3f764f)
+
 ## Features
 
 - **Home Screen**: View sustainability tips and your progress over time.
