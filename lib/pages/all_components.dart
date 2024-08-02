@@ -5,7 +5,7 @@ import 'dart:ui';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_app/utils.dart';
 
-class AllComponents extends StatelessWidget {
+class AllComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
   double fem = MediaQuery.of(context).size.width / 1716;
