@@ -1,13 +1,13 @@
 plugins {
-    id "com.android.application"
-    id "kotlin-android"
-    id "dev.flutter.flutter-gradle-plugin"
-    id "com.google.gms.google-services" // Apply Google services plugin here
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+    id 'com.google.gms.google-services'
 }
 
 android {
-    namespace "com.eco.ecotracker" // Update this to your app ID
-    compileSdkVersion 33 // Update to your required SDK version
+    namespace 'com.eco.ecotracker'
+    compileSdkVersion 33
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -23,16 +23,19 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.eco.ecotracker" // Update this to your app ID
-        minSdkVersion 21 // Update to your required minSdkVersion
-        targetSdkVersion 33 // Update to your required targetSdkVersion
-        versionCode 1 // Default version code
-        versionName "1.0" // Default version name
+        applicationId 'com.eco.ecotracker'
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName '1.0'
     }
 
     buildTypes {
         release {
             signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
@@ -41,8 +44,9 @@ flutter {
     source '../..'
 }
 
-// Add Firebase dependencies here
 dependencies {
     implementation 'com.google.firebase:firebase-auth:24.8.0'
     implementation 'com.google.firebase:firebase-core:21.3.0'
 }
+
+apply plugin: 'com.google.gms.google-services'
