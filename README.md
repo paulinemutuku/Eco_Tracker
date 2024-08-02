@@ -8,7 +8,10 @@ Watch the [demo video](https://youtube.com/shorts/k_IdCkhqXp8?feature=share) to 
 
 User Authentification and firebase demo videos
 [sign-up](https://www.loom.com/share/35d6f257062b49159e846b7fd2eaa64c?sid=53570e33-1a8b-4e2f-bbca-ce8ecead51e2)
+
 [login](https://www.loom.com/share/7fbd3074382b45b1a45cb5448337034d?sid=c8a9254b-0260-4793-aded-a39f9e3f764f)
+
+[Community](https://www.loom.com/share/b3990aa2344e4a589a0cbb5ec2fb2d83?sid=7530c18a-2c90-4a55-b3d3-4a3822d2a004)
 
 ## Features
 
